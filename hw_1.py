@@ -4,7 +4,11 @@ import pickle
 from abc import ABC, abstractmethod
 
 class UserInterface(ABC):
-    pass
+    def display_contacts(self, contacts):
+        pass
+
+    def display_commands(self):
+        pass
 
 
 class Field:
